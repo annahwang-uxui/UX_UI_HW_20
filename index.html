@@ -1,17 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Welcome to my UX/UI Boot Camp Journey</title>
 </head>
+
 <body>
+    <div class="header">
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/logo 0.5inch.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Me
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Resume</a>
+                        <a class="dropdown-item" href="#">Social Media</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Chat with me</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              <div class="jumbotron">
+                <h1 class="display-4">Hello, Everyone!</h1>
+                <p class="lead">Hello, My name is Anna Hwang. I am a Korean-Canadian UX designer who likes to solve problems using Miro, InVision, XD, Figma, Trello, Zoom, and GitHub. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <hr class="my-4">
+                <p>If you want to learn more about me, feel free to message me!</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>
+              </div>
+        </div>
+    </div>
+
+    <!-- Containers -->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/1_YouWHo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YouWho</h5>
+                <p class="card-text">Connecting fellow travelers to do things together</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
     
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/2_LISTr.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LISTr</h5>
+                <p class="card-text">Grocery List Tracker</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/3_DOE_home.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of Education</h5>
+                <p class="card-text">Redesigning the webiste and Mobile</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/4_MoreArt.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MoreArt</h5>
+                <p class="card-text">Redesigning a Non-Profit Organization</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/5_YouWho_proto.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YouWho</h5>
+                <p class="card-text">Traveling alone and you don't know anyone? YouWho can help you find fellow travelers to participate in local activities together.</p>
+                <a href="#" class="btn btn-primary">See Prototype</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/6_LISTr_ios.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LISTr</h5>
+                <p class="card-text">Frustrated about not remembering what to buy at the Grocery store? LISTr can help track and recommend items you are running out of in your pantry.</p>
+                <a href="#" class="btn btn-primary">See Prototype</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/7_DOE.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Department of Education</h5>
+                <p class="card-text">Redesigning the current Department of Education government website to be more asethetically pleasing.</p>
+                <a href="#" class="btn btn-primary">See Prototype</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+              <img src="images/8_Moreart_ios.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MoreArt</h5>
+                <p class="card-text">Redesigning a Non-Profit Organization's Website and Mobile to be more user friendly and asethetically pleasing.</p>
+                <a href="#" class="btn btn-primary">See Prototype</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- close row -->
+      </div><!-- Close container fluid -->
 </body>
+
 </html>

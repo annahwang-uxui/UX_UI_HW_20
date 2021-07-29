@@ -1,3 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Nunito', sans-serif;
+}
+
+.menu-bar {
+    background-image: linear-gradient(-90deg, #d38312, #a83279);
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500;
+}
+
 footer {
     position: absolute;
     width: 100%;
@@ -21,3 +38,4 @@ footer {
     padding: 25px;
     border-radius: 7px;
 }
+
